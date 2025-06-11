@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+opencv-python
+numpy
+colormath
+python-multipart
+joblib
+pillow
