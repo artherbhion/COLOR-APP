@@ -1,8 +1,11 @@
 fastapi
 uvicorn
 opencv-python
-numpy
 colormath
 python-multipart
-joblib
 pillow
+pandas
+numpy==2.3.0
+scikit-learn==1.6.1
+joblib==1.5.1
+packaging
