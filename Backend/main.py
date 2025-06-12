@@ -7,7 +7,9 @@ import joblib
 from color_utils import calculate_average_deltaE, calculate_avg_hsb
 
 app = FastAPI()
-
+@app.get("/")
+def read_root():
+    return {"message": "Color API is running 🚀"}
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
